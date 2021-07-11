@@ -46,7 +46,7 @@ default_node_pool {
     node_count = var.agentnode
     vm_size    = var.size
     type                = "VirtualMachineScaleSets"
-#    availability_zones  = ["1", "2"]
+    availability_zones  = ["1", "2"]
     enable_auto_scaling = true
     min_count           = 2
     max_count           = 5
